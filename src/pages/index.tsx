@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>My Portfolio</title>
+        <title>Jeremy Liu</title>
         <meta name="description" content="My Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.ico" />
