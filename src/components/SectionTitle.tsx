@@ -3,6 +3,7 @@ interface Props {
   titleNo: string;
 }
 
+// Takes two attibutes: title and titleNo
 const SectionTitle = ({ title, titleNo }: Props) => {
   return (
     <h2 className="font-titleFont text-2xl font-semibold flex items-center">

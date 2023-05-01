@@ -6,6 +6,7 @@ import Hikvision from "./works/Hikvision";
 import FotoPie from "./works/FotoPie";
 
 const Experience = () => {
+  // set state
   const [ZZUStatus, setZZUStatus] = useState(true);
   const [UNSWStatus, setUNSWStatus] = useState(false);
   const [HikvisionStatus, setHikvisionStatus] = useState(false);
@@ -50,24 +51,14 @@ const Experience = () => {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
-            onClick={handleZZUniversity}
+            onClick={handleFotoPieCompany}
             className={`${
-              ZZUStatus
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
-          >
-            Zhengzhou University
-          </li>
-          <li
-            onClick={handleUniversityNSW}
-            className={`${
-              UNSWStatus
+              FotoPieStatus
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
           >
-            UNSW
+            FotoPie
           </li>
           <li
             onClick={handleHikvisionCompany}
@@ -80,14 +71,24 @@ const Experience = () => {
             Hikvision
           </li>
           <li
-            onClick={handleFotoPieCompany}
+            onClick={handleUniversityNSW}
             className={`${
-              FotoPieStatus
+              UNSWStatus
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
           >
-            FotoPie Bootcamp
+            Master
+          </li>
+          <li
+            onClick={handleZZUniversity}
+            className={`${
+              ZZUStatus
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
+          >
+            Bachelor
           </li>
         </ul>
 

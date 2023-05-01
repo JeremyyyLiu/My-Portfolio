@@ -13,6 +13,7 @@ const About = () => {
 
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
+          {/* Introduction */}
           <p>
             Hello! My name is Jeremy and I enjoy creating things that live on
             the Internet. After working in IoT industry for 3 years as a Network
@@ -35,7 +36,8 @@ const About = () => {
           </p>
           <p> Here are the tech stacks I have been working with recently:</p>
 
-          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
+          {/* Tech Stack */}
+          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-4 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
@@ -76,6 +78,18 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
+              HTML
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              CSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
               Material UI
             </li>
             <li className="flex items-center gap-2">
@@ -108,9 +122,22 @@ const About = () => {
               </span>
               Git/Github
             </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              AWS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Vercel
+            </li>
           </ul>
         </div>
 
+        {/* Photo */}
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">

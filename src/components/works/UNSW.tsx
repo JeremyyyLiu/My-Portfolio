@@ -18,19 +18,25 @@ const UNSW = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Text here
+          Centered my programming expertise on Python and developed a deep
+          understanding of key concepts such as object-oriented programming,
+          data structures, and algorithms.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Text here
+          I have also gained extensive knowledge in the field of networking,
+          with a focus on concepts like TCP/IP, Routing, and Switching.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Text here
+          This understanding of networking principles has enabled me to apply my
+          Python skills in practical ways, such as during a group project in
+          which we implemented a fat-tree network topology and achieved static &
+          dynamic load balancing.
         </li>
       </ul>
     </motion.div>

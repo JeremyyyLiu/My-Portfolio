@@ -18,19 +18,24 @@ const ZZU = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Text here
+          Built solid foundation of mathematics and computer science knowledge
+          via courses such as Calculus, Linear Algebra, Probability &
+          Mathematical Statistics, Computer Network, Operating System etc.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Text here
+          In addition to my mathematical prowess, I have also developed a robust
+          coding ability, mastering languages such as C, Java, and Assembly
+          Language.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Text here
+          One notable accomplishment was my final project, in which I focused on
+          wireless network security and penetration test using Kali Linux.
         </li>
       </ul>
     </motion.div>
