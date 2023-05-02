@@ -7,10 +7,10 @@ import FotoPie from "./works/FotoPie";
 
 const Experience = () => {
   // set state
-  const [ZZUStatus, setZZUStatus] = useState(true);
+  const [ZZUStatus, setZZUStatus] = useState(false);
   const [UNSWStatus, setUNSWStatus] = useState(false);
   const [HikvisionStatus, setHikvisionStatus] = useState(false);
-  const [FotoPieStatus, setFotoPieStatus] = useState(false);
+  const [FotoPieStatus, setFotoPieStatus] = useState(true);
 
   // set onClick handler
   const handleZZUniversity = () => {
