@@ -2,8 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/logo.png";
 import { motion } from "framer-motion";
+import { useRef } from "react";
 
 const Navbar = () => {
+  const ref = useRef<string | any>("");
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    const element = document.getElementById(targetId);
+    element?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
