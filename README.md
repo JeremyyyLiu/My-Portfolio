@@ -13,3 +13,5 @@ This is my portfolio website to introduce myself and showcase my work experience
 https://jeremy-liu.vercel.app
 
 ### Project Demo Video
+
+https://www.youtube.com/watch?v=wDPGlpYPvCk

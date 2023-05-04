@@ -209,14 +209,14 @@ const Projects = () => {
                   <TbBrandGithub />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.youtube.com/watch?v=wDPGlpYPvCk"
                   target="_blank"
                   className="hover:text-textGreen duration-300"
                 >
                   <AiOutlineYoutube />
                 </a>
                 <a
-                  href="#"
+                  href="https://jeremy-liu.vercel.app/"
                   target="_blank"
                   className="hover:text-textGreen duration-300"
                 >
