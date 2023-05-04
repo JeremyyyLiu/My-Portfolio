@@ -161,7 +161,7 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row gap-6">
             {/* Left side */}
             <a
-              href="https://www.fotopie.net/"
+              href="https://jeremy-liu.vercel.app/"
               target="_blank"
               className="w-full xl:w-1/2 h-auto relative group"
             >
