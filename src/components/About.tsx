@@ -16,14 +16,13 @@ const About = () => {
           {/* Introduction */}
           <p>
             Hello! My name is Jeremy and I enjoy creating things that live on
-            the Internet. After working in IoT industry for 3 years as a Network
+            the Internet. After working in IT industry for 3 years as a Support
             Engineer, I decided to change my career path to web development,
             which attracts me by its fast-paced and ever-changing nature.
           </p>
           <p>
-            In the past few months, I have finished a bootcamp and built a few
-            team and individual full stack projects, which showcasing my ability
-            to adapt and learn{" "}
+            In the past few months, I have built a few team and individual full
+            stack projects, which showcasing my ability to adapt and learn{" "}
             <span className="text-textGreen">new skills and technologies.</span>
           </p>
           <p>
@@ -78,13 +77,13 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              HTML
+              HTML5
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              CSS
+              CSS3
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -114,6 +113,18 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
+              Redux
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Jest
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
               Docker
             </li>
             <li className="flex items-center gap-2">
@@ -122,6 +133,7 @@ const About = () => {
               </span>
               Git/Github
             </li>
+
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />

@@ -10,7 +10,7 @@ const Hikvision = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Network Engineer
+        Support Engineer
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">2019 - 2022</p>
       <ul className="mt-6 flex flex-col gap-3">
@@ -18,25 +18,40 @@ const Hikvision = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Interacting directly with enterprise clients and business partners to
-          gather and analyse project requirements, and presenting the designed
-          solutions to the customer.
+          Provided support and testing for video surveillance web/desktop
+          applications and mobile apps: HikCentral and Hik-Connect by working
+          closely with software engineer team.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Designing network topology using TCP/IP, WAN/LAN, Firewalls, Routing &
-          Switching, and working closely with developer team to integrate
-          software products into the projects.
+          Interacted directly with enterprise clients to design and build
+          customised CCTV SaaS solutions by using HikCentral application modules
+          based on clients’ system requirements.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Working with customers’ IT team for project deployment and involving
-          in the troubleshooting process of any issues that may occur during
-          project delivering.
+          Deployed HikCentral software on clients’ Linux/Windows server and
+          implemented network infrastructure using TCP/IP, WAN/LAN,
+          routing/switching with clients’ engineer team.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Conducted testing and troubleshooting of the issues reported from
+          clients and provided fix solutions to customers in a timely manner
+          with software engineer team.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          DManaged the progress of projects and provided presentations and
+          trainings to customers.
         </li>
       </ul>
     </motion.div>

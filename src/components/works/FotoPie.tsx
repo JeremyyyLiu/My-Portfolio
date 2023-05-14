@@ -19,8 +19,9 @@ const FotoPie = () => {
             <TiArrowForward />
           </span>
           In project FotoPie, I built frontend components and pages using
-          Next.js, Typescript, and MUI, as well as crafting API requests with
-          Axios.
+          Next.js, Typescript, Redux and MUI, as well as crafting API requests
+          with Axios, and conducting unit testing with Jest and React Testing
+          Library.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
@@ -34,9 +35,10 @@ const FotoPie = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          In addition to development, I have experience in containerizing
-          frontend and backend code using Docker, and deploying applications on
-          platforms such as AWS ECS and Vercel.
+          In addition to development, I have experience in CI/CD deployment
+          automation with Github Action and containerizing frontend and backend
+          code using Docker, and deploying applications on platforms such as AWS
+          ECS and Vercel.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">

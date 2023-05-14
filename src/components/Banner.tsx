@@ -32,11 +32,10 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Aspiring Full Stack Developer with over 3 years experience of IT
-        industry, transitioning from a Network Engineer role where I honed my
-        skills in network architecture design. Recently pivoted my career from
-        networking to full stack web development and deliveried multiple full
-        stack projects, showcasing my ability to adapt and learn new skills.
+        Aspiring Full Stack Developer with 1 year web development experience and
+        3 years software support experience in IT industry. I possess a strong
+        foundation in front-end and back-end tech stacks and delivered multiple
+        features and projects.
         <br />
         <a href="https://www.linkedin.com/in/jeremy-zeyu-liu/" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
