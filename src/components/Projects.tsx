@@ -156,6 +156,78 @@ const Projects = () => {
           </div>
         </div>
 
+        {/* Project Two */}
+        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row-reverse gap-6">
+            {/* Left side */}
+            <a
+              href="https://lion-fitness.vercel.app/"
+              target="_blank"
+              className="w-full xl:w-1/2 h-auto relative group"
+            >
+              <div>
+                <Image
+                  src={LionFitness}
+                  alt="image"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </a>
+            {/* Right side */}
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Lion Fitness</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md">
+                Lion Fitness is a static website which boasts a stunning UI and
+                is designed to leave a lasting impression by using a combination
+                of{" "}
+                <span className="text-textGreen">
+                  HTML, CSS, and JavaScript.
+                </span>{" "}
+                The website is fully{" "}
+                <span className="text-textGreen">responsive</span>, adapting
+                seamlessly to various screen sizes for a top-notch browsing
+                experience on any device.
+              </p>
+
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Responsive Design</li>
+                <li>Frontend</li>
+                <li>UI</li>
+              </ul>
+
+              <div className="text-2xl flex gap-4">
+                <a
+                  href="https://github.com/JeremyyyLiu/Lion-Fitness-Website.git"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a
+                  href="https://www.youtube.com/watch?v=cYzDpwLrLE4"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  <AiOutlineYoutube />
+                </a>
+                <a
+                  href="https://lion-fitness.vercel.app/"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Project Three */}
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-6">
@@ -217,6 +289,78 @@ const Projects = () => {
                 </a>
                 <a
                   href="https://jeremy-liu.vercel.app/"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Project Four */}
+        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row-reverse gap-6">
+            {/* Left side */}
+            <a
+              href="https://lion-fitness.vercel.app/"
+              target="_blank"
+              className="w-full xl:w-1/2 h-auto relative group"
+            >
+              <div>
+                <Image
+                  src={LionFitness}
+                  alt="image"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </a>
+            {/* Right side */}
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Lion Fitness</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md">
+                Lion Fitness is a static website which boasts a stunning UI and
+                is designed to leave a lasting impression by using a combination
+                of{" "}
+                <span className="text-textGreen">
+                  HTML, CSS, and JavaScript.
+                </span>{" "}
+                The website is fully{" "}
+                <span className="text-textGreen">responsive</span>, adapting
+                seamlessly to various screen sizes for a top-notch browsing
+                experience on any device.
+              </p>
+
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Responsive Design</li>
+                <li>Frontend</li>
+                <li>UI</li>
+              </ul>
+
+              <div className="text-2xl flex gap-4">
+                <a
+                  href="https://github.com/JeremyyyLiu/Lion-Fitness-Website.git"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a
+                  href="https://www.youtube.com/watch?v=cYzDpwLrLE4"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  <AiOutlineYoutube />
+                </a>
+                <a
+                  href="https://lion-fitness.vercel.app/"
                   target="_blank"
                   className="hover:text-textGreen duration-300"
                 >

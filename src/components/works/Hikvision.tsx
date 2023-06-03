@@ -18,40 +18,39 @@ const Hikvision = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Provided support and testing for video surveillance web/desktop
-          applications and mobile apps: HikCentral and Hik-Connect by working
-          closely with software engineer team.
+          Provided deployment and support of HikCentral SaaS web application for
+          on-premises VMs on Linux/Windows servers or AWS cloud infrastructures.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Interacted directly with enterprise clients to design and build
-          customised CCTV SaaS solutions by using HikCentral application modules
-          based on clients’ system requirements.
+          Interacted directly with enterprise clients to collect/analyse system
+          requirements, design and build customised SaaS solutions by using
+          HikCentral application modules.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Deployed HikCentral software on clients’ Linux/Windows server and
-          implemented network infrastructure using TCP/IP, WAN/LAN,
-          routing/switching with clients’ engineer team.
+          Implemented network infrastructure among clients’ servers, data
+          centres and operation terminals using TCP/IP, firewalls, WAN/LAN,
+          routing/switching.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Conducted testing and troubleshooting of the issues reported from
-          clients and provided fix solutions to customers in a timely manner
-          with software engineer team.
+          Conducted testing and troubleshooting for issues reported from clients
+          and provided fix solutions to customers with developer team in a
+          timely manner.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          DManaged the progress of projects and provided presentations and
-          trainings to customers.
+          Managed development and deployment of projects with Agile development
+          methodology.
         </li>
       </ul>
     </motion.div>

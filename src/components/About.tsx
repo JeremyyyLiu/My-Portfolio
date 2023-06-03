@@ -16,9 +16,10 @@ const About = () => {
           {/* Introduction */}
           <p>
             Hello! My name is Jeremy and I enjoy creating things that live on
-            the Internet. After working in IT industry for 3 years as a Support
-            Engineer, I decided to change my career path to web development,
-            which attracts me by its fast-paced and ever-changing nature.
+            the Internet. After working in IT industry for 3 years as a Software
+            Support Engineer, I decided to change my career path to full stack
+            development, which attracts me by its fast-paced and ever-changing
+            nature.
           </p>
           <p>
             In the past few months, I have built a few team and individual full
@@ -144,7 +145,19 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Vercel
+              Java
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Python
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Spring Boot
             </li>
           </ul>
         </div>

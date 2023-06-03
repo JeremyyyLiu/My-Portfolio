@@ -32,10 +32,9 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Aspiring Full Stack Developer with 1 year web development experience and
-        3 years software support experience in IT industry. I possess a strong
-        foundation in front-end and back-end tech stacks and delivered multiple
-        features and projects.
+        Aspiring Software Engineer with 4 years working experience in IT
+        industry. I possess a strong foundation in front-end, back-end and
+        DevOps tech stacks and delivered multiple projects.
         <br />
         <a href="https://www.linkedin.com/in/jeremy-zeyu-liu/" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">

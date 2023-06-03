@@ -27,7 +27,8 @@ const UNSW = () => {
             <TiArrowForward />
           </span>
           I have also gained extensive knowledge in the field of networking,
-          with a focus on concepts like TCP/IP, Routing, and Switching.
+          with a focus on concepts like TCP/IP, Routing & Switching and
+          static/dynamic load balancing.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
